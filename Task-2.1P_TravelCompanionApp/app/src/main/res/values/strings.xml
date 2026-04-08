@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Travel Companion</string>
+    <string name="travel_companion">Travel Companion</string>
+    <string name="unit_converter">Unit Converter</string>
+    <string name="category">Category</string>
+    <string name="source">Source</string>
+    <string name="destination">Destination</string>
+    <string name="enter_value">Enter Value</string>
+    <string name="hint_value">0.00</string>
+    <string name="convert">Convert</string>
+    <string name="converted_result">Converted Result</string>
+    <string name="result_placeholder">--</string>
+    <string name="to">to</string>
+    <string name="badge_currency">💱 Currency</string>
+    <string name="badge_fuel">⛽ Fuel</string>
+    <string name="badge_temp">🌡 Temp</string>
+</resources>
