@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/eventListFragment">
+
+    <!-- Event List Screen -->
+    <fragment
+        android:id="@+id/eventListFragment"
+        android:name="com.example.eventplanner.EventListFragment"
+        android:label="Events"
+        tools:layout="@layout/fragment_event_list">
+
+        <!-- Navigate to Add Event -->
+        <action
+            android:id="@+id/action_list_to_add"
+            app:destination="@id/addEditEventFragment"
+            app:enterAnim="@anim/slide_in_up"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out_down"/>
+
+        <!-- Navigate to Edit Event (passes eventId) -->
+        <action
+            android:id="@+id/action_list_to_edit"
+            app:destination="@id/addEditEventFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+
+    </fragment>
+
+    <!-- Add / Edit Event Screen -->
+    <fragment
+        android:id="@+id/addEditEventFragment"
+        android:name="com.example.eventplanner.AddEditEventFragment"
+        android:label="Add Event"
+        tools:layout="@layout/fragment_add_edit_event">
+
+        <!-- Argument: -1 means Add mode, any positive int means Edit mode -->
+        <argument
+            android:name="eventId"
+            app:argType="integer"
+            android:defaultValue="-1"/>
+
+    </fragment>
+
+</navigation>
