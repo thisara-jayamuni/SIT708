@@ -1,3 +1,83 @@
 <resources>
     <string name="app_name">Lost and Found</string>
+    <string name="app_title">Lost &amp; Found</string>
+    <string name="app_tagline">Reuniting people with their belongings</string>
+
+    <!-- Home -->
+    <string name="btn_create_advert">+ Create a New Advert</string>
+    <string name="btn_show_all">Show All Lost &amp; Found Items</string>
+    <string name="home_footer">Helping your community find what\'s lost</string>
+
+    <!-- Item List -->
+    <string name="title_item_list">Lost Item List</string>
+    <string name="hint_search">Search items…</string>
+    <string name="label_all_items">All items</string>
+    <string name="label_no_items_found">No items found</string>
+    <string name="label_no_items_hint">Try adjusting your search or filters</string>
+
+    <!-- Item Details -->
+    <string name="title_item_details">Item Details</string>
+    <string name="label_posted">Posted</string>
+    <string name="btn_remove">Remove</string>
+
+    <!-- Create Advert -->
+    <string name="title_create_advert">Create New Advert</string>
+    <string name="label_post_type">Post Type</string>
+    <string name="label_item_details_section">Item Details</string>
+    <string name="label_lost">Lost</string>
+    <string name="label_found">Found</string>
+    <string name="label_category">Category</string>
+    <string name="label_item_title">Item Title</string>
+    <string name="label_description">Description</string>
+    <string name="label_location">Location</string>
+    <string name="label_contact">Contact Information</string>
+    <string name="label_name">Your Name</string>
+    <string name="label_phone">Phone Number</string>
+    <string name="label_photo">Photo</string>
+    <string name="hint_title">e.g. Black iPhone 15 Pro</string>
+    <string name="hint_description">Describe the item in detail…</string>
+    <string name="hint_location">Where was it lost/found?</string>
+    <string name="hint_name">Full name</string>
+    <string name="hint_phone">e.g. 0412 345 678</string>
+    <string name="btn_upload_photo">Tap to Upload Photo</string>
+    <string name="btn_change_photo">Change Photo</string>
+    <string name="btn_save">Save Advert</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_back">Back</string>
+    <string name="cd_item_icon">Item icon</string>
+    <string name="cd_app_icon">App icon</string>
+
+    <!-- Validation errors -->
+    <string name="error_title">Please enter a title</string>
+    <string name="error_description">Please enter a description</string>
+    <string name="error_location">Please enter a location</string>
+    <string name="error_name">Please enter your name</string>
+    <string name="error_phone">Please enter a phone number</string>
+    <string name="error_category">Please select a category</string>
+    <string name="error_image">Please upload a photo</string>
+
+    <!-- Toasts -->
+    <string name="toast_saved">Advert saved successfully</string>
+    <string name="toast_save_fail">Failed to save advert</string>
+    <string name="toast_image_fail">Failed to load image</string>
+
+    <!-- Categories -->
+    <string name="categories_hint">Select a category…</string>
+    <string-array name="categories">
+        <item>Select a category…</item>
+        <item>Electronics</item>
+        <item>Pets</item>
+        <item>Wallets &amp; Purses</item>
+        <item>Keys</item>
+        <item>Bags &amp; Luggage</item>
+        <item>Jewellery &amp; Accessories</item>
+        <item>Clothing</item>
+        <item>Documents &amp; Cards</item>
+        <item>Glasses &amp; Sunglasses</item>
+        <item>Toys &amp; Games</item>
+        <item>Sports Equipment</item>
+        <item>Books &amp; Stationery</item>
+        <item>Other</item>
+    </string-array>
 </resources>

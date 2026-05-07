@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"
+        android:minSdkVersion="33" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,6 +16,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LostAndFound">
+        <activity
+            android:name=".ItemDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ItemListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateAdvertActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
